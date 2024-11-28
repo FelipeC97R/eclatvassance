@@ -10,9 +10,10 @@
     <script>
         window.alert('Bem vindo ao meu novo site')
     </script>
-    <img src="imagens/Logo Velas Eclat Vassance 20X16mm.png" alt="Logo Eclat Vassance">
-    <img src="imagens/Vela Canela com Pinhas - 450 px.jpg" alt="Vela de canela com pinhas">
-    <img src="imagens/Vela Canela Tecido Preto - 450px.jpg" alt="Vela com tecido preto ao fundo">
-    <img src="imagens/Vela Gel - 450 px.jpg" alt="Vela de gel">
+    <img src="{{ url_for('static', filename='imagens/Logo Velas Eclat Vassance 20X16mm.png') }}" alt="Logo Eclat Vassance">
+    <img src="{{ url_for('static', filename='imagens/Vela Canela com Pinhas - 450 px.jpg') }}" alt="Vela de canela com pinhas">
+    <img src="{{ url_for('static', filename='imagens/Vela Canela Tecido Preto - 450px.jpg') }}" alt="Vela com tecido preto ao fundo">
+    <img src="{{ url_for('static', filename='imagens/Vela Gel - 450 px.jpg') }}" alt="Vela de gel">
+    
 </body>
 </html>
